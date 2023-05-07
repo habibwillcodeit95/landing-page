@@ -1,0 +1,42 @@
+.section-one, .section-two {
+    background-color:#1F2937 ;
+}
+
+.section-two h1 { 
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8
+}
+
+a, .section-two p { 
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.section-one h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.section-five, button {
+    background-color:#3882F6 ;
+}
+
+.section-three h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.section-four {
+    background-color: #E5E7EB;
+    font-size: 36px light italic;
+    color: #1F2937;
+}
+
+
+
+
+
+
+
