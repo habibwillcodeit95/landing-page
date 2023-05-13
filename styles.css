@@ -26,12 +26,35 @@ a, .section-two p {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    text-align: center;
 }
 
 .section-four {
     background-color: #E5E7EB;
     font-size: 36px light italic;
     color: #1F2937;
+}
+
+.section-three img {
+    width: 150px;
+    height: 150px;
+}
+
+.images {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.section-three p {
+    width: 150px;
+}
+
+
+* { 
+    border: 1px solid red;
+    margin: 5px
 }
 
 
