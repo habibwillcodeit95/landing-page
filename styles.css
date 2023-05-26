@@ -5,7 +5,9 @@
 .section-two h1 { 
     font-size: 48px;
     font-weight: bolder;
-    color: #f9faf8
+    color: #f9faf8;
+    align-self: baseline;
+    
 }
 
 a, .section-two p { 
@@ -16,9 +18,12 @@ a, .section-two p {
 .section-one h1 {
     font-size: 24px;
     color: #F9FAF8;
+
+    margin-right: auto;
+
 }
 
-.section-five, button {
+.call-to-action, button {
     background-color:#3882F6 ;
 }
 
@@ -38,13 +43,15 @@ a, .section-two p {
 .section-three img {
     width: 150px;
     height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
 }
 
 .images {
     display: flex;
     text-align: center;
     justify-content: center;
-    gap: 10px;
+    gap: 50px;
 }
 
 .section-three p {
@@ -53,9 +60,92 @@ a, .section-two p {
 
 
 * { 
-    border: 1px solid red;
-    margin: 5px
+    /*border: 1px solid red;
+    margin: 5px;*/
+    font-family: ; 
+    box-sizing: border-box;
+    ;
 }
+
+.section-one {
+    display: flex;
+    padding: 5px 150px;
+}
+
+.section-two {
+    display: flex;
+    justify-content: space-between;
+
+
+    padding: 0px 150px;
+    height: 400px;
+}
+
+.section-two img {
+    width: 450px;
+    height: 225px;
+}
+
+.section-two div {
+    display: flex;
+    flex-direction: column;
+    height: 225px;
+    width: 450px;
+}
+
+p { 
+    flex-shrink: 
+}
+
+.section-three {
+    height: 400px;
+    padding: 30px 0px;
+
+}
+
+.section-four {
+    height: 400px;
+    padding: 50px 100px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.bill {
+    text-align: end;
+}
+
+.section-five {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.call-to-action {
+
+    height: 150px;
+    width: 750px;
+    display: flex;
+    padding: 25px;
+    justify-content: space-between;
+    align-items: center ;
+    border-radius: 10px;
+    color: white;
+}
+
+.call-to-action p,h3,button { 
+    margin: 0px;
+    color: white;
+}
+
+button {
+    padding: 5px 20px;
+    border-color: white;
+}
+
+
 
 
 
