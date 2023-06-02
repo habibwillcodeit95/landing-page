@@ -7,6 +7,7 @@
     font-weight: bolder;
     color: #f9faf8;
     align-self: baseline;
+    margin: 0;
     
 }
 
@@ -62,7 +63,7 @@ a, .section-two p {
 * { 
     /*border: 1px solid red;
     margin: 5px;*/
-    font-family: ; 
+    font-family: 'Roboto' ; 
     box-sizing: border-box;
     ;
 }
@@ -70,15 +71,19 @@ a, .section-two p {
 .section-one {
     display: flex;
     padding: 5px 150px;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 20px;
 }
+
 
 .section-two {
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
 
     padding: 0px 150px;
-    height: 400px;
+    height: 350px;
 }
 
 .section-two img {
@@ -91,11 +96,14 @@ a, .section-two p {
     flex-direction: column;
     height: 225px;
     width: 450px;
+    align-items: flex-start;
 }
 
-p { 
-    flex-shrink: 
+.section-two p {
+    margin-top: 0;
 }
+
+
 
 .section-three {
     height: 400px;
@@ -143,6 +151,10 @@ p {
 button {
     padding: 5px 20px;
     border-color: white;
+}
+
+.section-six {
+    text-align: center;
 }
 
 
